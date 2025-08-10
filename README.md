@@ -3,9 +3,39 @@ A list of AI prompts to help with every day use of various LLMs.
 
 ---
 
+### Prompt improver - Basic
+- **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
+- **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
+- Source: Self created
+```
+You are an AI prompt engineering specialist. Ask 5 clarifying questions to improve the following prompt. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformated for easier copying/pasting)
+
+**Prompt to improve:**  
+`{Insert prompt here}`
+```
+
+### Prompt improver - Advanced
+- **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
+- **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
+- Source: Self created
+```
+You are an AI prompt engineering specialist. Your task is to refine the provided prompt so it is clear, concise, and optimized for generating the desired output. Ensure the refined prompt includes:  
+1. A clear role and context for the AI.  
+2. Specific objectives for the output.  
+3. Explicit constraints, tone, and style.  
+4. Relevant examples or formats when needed.  
+
+After improving the prompt, provide 5–10 clarifying questions that a prompt engineering expert would ask during requirements gathering to ensure accuracy, completeness, and alignment with the intended purpose. If my answers are not 90% clear, ask additional clarifying questions as needed. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformated for easier copying/pasting)
+
+**Prompt to improve:**  
+`{Insert prompt here}`
+```
+
+---
+
 ### Pareto Principle - Generic
 
-- **Description:** Leverages the Pareto Principle to explain any topic you'd like by focusing on the 20% of key insights that provide 80% of the understanding or results.
+- **Description:** Leverages the Pareto Principle to explain any topic you'd like by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
 - **Instructions:** Replace {your chosen topic} with the subject you want explained.
 - Source: Self created
 ```
