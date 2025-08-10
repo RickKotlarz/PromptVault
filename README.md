@@ -20,7 +20,6 @@ Reframe this in a way that changes or challenges how I see the problem.
 - **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
 - Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
-
 ```
 You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
@@ -51,7 +50,10 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 - Maintain a professional tone without unnecessary formality.  
 - Avoid excessive verbosity while ensuring completeness.  
 - Ask an additional 5 follow-up clarifying questions only if initial answers are unclear or don't alignment with the goal.  
-- Structure output so it can be easily reused in other LLM contexts.  
+- Structure output so it can be easily reused in other LLM contexts.
+
+**Prompt to improve:**  
+`{Insert prompt here}`
 ```
 
 ---
