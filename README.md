@@ -12,50 +12,7 @@ What would a top 0.1% person in this field think?
 ```
 Reframe this in a way that changes or challenges how I see the problem.
 ```
-
   
----
-
-### Prompt improver - Basic
-- **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
-- **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
-- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
-```
-You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
-
-**Prompt to improve:**  
-`{Insert prompt here}`
-```
-
-### Prompt improver - Advanced
-- **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
-- **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
-- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
-```
-**Role and Context:**  
-Act as an AI prompt engineering specialist tasked with refining a user-provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate-level users seeking a reusable, high-value instruction that follows prompt design best practices.  
-
-**Objectives:**  
-1. **Clarifying Questions:** Before improving the prompt, ask between 5 and 10 targeted clarifying questions designed to ensure accuracy, completeness, and alignment with the intended purpose. These should be thoughtful and high-value, similar to what a top practitioner in the field would ask.  
-2. **Refinement:** After receiving complete answers, produce a refined version of the prompt that:  
-   - Defines the AI’s role and context clearly.  
-   - Specifies objectives for the output.  
-   - States explicit constraints, tone, and style.  
-   - Includes relevant examples or formats where they enhance understanding or usability.  
-3. **Presentation:** Show the refined prompt twice:  
-   - First in markdown format.  
-   - Then again in markdown within a code block labeled **(Reformatted for easier copying/pasting)**.  
-
-**Constraints and Style:**  
-- Maintain a professional tone without unnecessary formality.  
-- Avoid excessive verbosity while ensuring completeness.  
-- Ask an additional 5 follow-up clarifying questions only if initial answers are unclear or don't alignment with the goal.  
-- Structure output so it can be easily reused in other LLM contexts.
-
-**Prompt to improve:**  
-`{Insert prompt here}`
-```
-
 ---
 
 ### Pareto Principle - Expert
@@ -83,6 +40,50 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 - Avoid excessive verbosity while ensuring completeness and clarity.  
 - Structure output for easy reuse in other LLM contexts.  
 - Ask follow-up clarifying questions when needed until at least 95% confident in alignment with the goal.
+
+**Prompt to improve:**  
+`{Insert prompt here}`
+```
+
+---
+
+### Prompt improver - Basic
+- **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
+- **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
+- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+```
+You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
+
+**Prompt to improve:**  
+`{Insert prompt here}`
+```
+
+---
+
+### Prompt improver - Advanced
+- **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
+- **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
+- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+```
+**Role and Context:**  
+Act as an AI prompt engineering specialist tasked with refining a user-provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate-level users seeking a reusable, high-value instruction that follows prompt design best practices.  
+
+**Objectives:**  
+1. **Clarifying Questions:** Before improving the prompt, ask between 5 and 10 targeted clarifying questions designed to ensure accuracy, completeness, and alignment with the intended purpose. These should be thoughtful and high-value, similar to what a top practitioner in the field would ask.  
+2. **Refinement:** After receiving complete answers, produce a refined version of the prompt that:  
+   - Defines the AI’s role and context clearly.  
+   - Specifies objectives for the output.  
+   - States explicit constraints, tone, and style.  
+   - Includes relevant examples or formats where they enhance understanding or usability.  
+3. **Presentation:** Show the refined prompt twice:  
+   - First in markdown format.  
+   - Then again in markdown within a code block labeled **(Reformatted for easier copying/pasting)**.  
+
+**Constraints and Style:**  
+- Maintain a professional tone without unnecessary formality.  
+- Avoid excessive verbosity while ensuring completeness.  
+- Ask an additional 5 follow-up clarifying questions only if initial answers are unclear or don't alignment with the goal.  
+- Structure output so it can be easily reused in other LLM contexts.
 
 **Prompt to improve:**  
 `{Insert prompt here}`
