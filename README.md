@@ -8,7 +8,7 @@ A list of AI prompts to help with every day use of various LLMs.
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
 - Source: Self created
 ```
-You are an AI prompt engineering specialist. Ask 5 clarifying questions to improve the following prompt. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformated for easier copying/pasting)
+You are an AI prompt engineering specialist. Ask 5 clarifying questions to improve the following prompt. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 `{Insert prompt here}`
@@ -25,7 +25,7 @@ You are an AI prompt engineering specialist. Your task is to refine the provided
 3. Explicit constraints, tone, and style.  
 4. Relevant examples or formats when needed.  
 
-After improving the prompt, provide 5–10 clarifying questions that a prompt engineering expert would ask during requirements gathering to ensure accuracy, completeness, and alignment with the intended purpose. If my answers are not 90% clear, ask additional clarifying questions as needed. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformated for easier copying/pasting)
+After improving the prompt, provide 5–10 clarifying questions that a prompt engineering expert would ask during requirements gathering to ensure accuracy, completeness, and alignment with the intended purpose. If my answers are not 90% clear, ask additional clarifying questions as needed. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 `{Insert prompt here}`
