@@ -1,14 +1,28 @@
 # PromptVault
 A list of AI prompts to help with every day use of various LLMs.
 
+### Generic questions to append to your prompts
+
+```
+Ask clarifying questions until you're at least 95% confident that you can complete this task sucessfully.
+```
+```
+What would a top 0.1% person in this field think?
+```
+```
+Reframe this in a way that changes or challenges how I see the problem.
+```
+
+  
 ---
 
 ### Prompt improver - Basic
 - **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
-- Source: Self created
+- Source: [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+
 ```
-You are an AI prompt engineering specialist. Ask 5 clarifying questions to improve the following prompt. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformatted for easier copying/pasting)
+You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 `{Insert prompt here}`
@@ -25,7 +39,8 @@ You are an AI prompt engineering specialist. Your task is to refine the provided
 3. Explicit constraints, tone, and style.  
 4. Relevant examples or formats when needed.  
 
-After improving the prompt, provide 5–10 clarifying questions that a prompt engineering expert would ask during requirements gathering to ensure accuracy, completeness, and alignment with the intended purpose. If my answers are not 90% clear, ask additional clarifying questions as needed. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformatted for easier copying/pasting)
+Before improving the prompt, ask 5-10 clarifying to ensure accuracy, completeness, and alignment with the intended purpose. Don't respond with an updated prompt until I've answered all questions. If my responses are not clear, ask additional clarifying questions as needed until you're 95% certain you've met the goal.
+Results of the refined prompt should be shown to the user in markdown, then again in markdown within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 `{Insert prompt here}`
