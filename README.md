@@ -1,7 +1,40 @@
-# PromptVault
-A list of AI prompts to help with every day use of various LLMs.
+1. [Introduction](#introduction)
+2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
+3. [Generic](#generic-prompts)
+4. [Pareto Principle](#pareto-principle)
+5. [Prompt improver - Basic](#prompt-improver---basic)
+6. [Prompt improver - Advanced](#prompt-improver---advanced)
+7. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
+8. [JSON context profiling](#json-context-profiling)
 
-### Generic questions to append to your prompts
+## Introduction
+PromptVault is my personal repository for AI knowledge and prompts that I use to help with every day use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
+
+---
+
+## What is Markdown and why you should use it
+
+Large Language Models (LLMs) do not understand context and as humans we're horrible at conveying this. To help the LLM out we can use Markdown to seperate the instruction from the objects being referenced.
+
+[Markdown](https://commonmark.org/) is a lightweight markup language developed by John Gruber in 2004 that is used to format plain text. It allows you to easily add formatting elements such as headers, lists, links, images, bold or italic text, and more, using simple symbols or characters. Markdown enhances human readability, provides clear structure, and provides delimiters that helps Large Language Models (LLMs) better interpret user intent, instructions, and expected output.
+
+Using Markdown provides:
+ - Clear separation of content
+ - Enhancing context recognition
+ - Distinguishing between input and output
+ - Highlighting intent with emphasis
+ - Prompting LLMs with specific formatting
+ - Facilitating conditional output
+
+While this page  doesn't cover syntax around the use of Markdown, you can easily find this information [here](https://commonmark.org/help/). Additionally on this website you can find a [10 minute interactive tutorial](https://commonmark.org/help/tutorial/), or [play with the reference CommonMark implementation](https://spec.commonmark.org/dingus/).
+
+When you're not on a mobile device, you may also want to give [Stackedit, a Markdown WYSIWYG editor](https://stackedit.io/), a try.
+
+---
+
+## Generic prompts
+
+The following are statements that you can easily add to most prompts to quickly gain additional value.
 
 ```
 Ask clarifying questions until you're at least 95% confident that you can complete this task sucessfully.
@@ -15,7 +48,7 @@ Reframe this in a way that changes or challenges how I see the problem.
 
 ---
 
-### Pareto Principle - Generic
+### Pareto Principle
 
 - **Description:** Leverages the Pareto Principle to explain any topic by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
 - **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distiled using the Pareto Principle.
@@ -36,7 +69,7 @@ $TopicVariable = {Topic to distil}
 
 ---
 
-### Prompt improver - Basic
+## Prompt improver - Basic
 - **Description:** Uses IA to improve your AI prompts using some 5 requirements gathering questions. This
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
 - Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
@@ -44,12 +77,12 @@ $TopicVariable = {Topic to distil}
 You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
-`{Insert prompt here}`
+{Insert prompt here}
 ```
 
 ---
 
-### Prompt improver - Advanced
+## Prompt improver - Advanced
 - **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
 - Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
@@ -75,11 +108,11 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 - Structure output so it can be easily reused in other LLM contexts.
 
 **Prompt to improve:**  
-`{Insert prompt here}`
+{Insert prompt here}
 ```
 
 ---
-### Lyra - Ultimate Prompt Generator
+## Lyra - Ultimate Prompt Generator
 
 - **Description:** Transforms user input into precision-crafted AI prompt.
 - **Instructions:** Copy and paste the following code block into your LLM of choice and answer it's questions.
@@ -181,3 +214,9 @@ Just share your rough prompt and I'll handle the optimization!
 
 ---
 
+## JSON context profiling
+- **Description:** Images are very hard to capture, you can improve this by asking the LLM to create a JSON context profile with high-level details.
+- **Instructions:** Attach or provide a URL to an image, then copy and paste into an LLM. Once completed you should be presented with a JSON file. You can then export that file, editing the file, or simply referring to it for reference to recreate images that aren't copy protected.
+```
+Analyze the image and create an exhaustive JSON context profile that captures every possible attribute and detail. The profile should include all detected objects, their precise locations (bounding boxes or coordinates within the image), colors, textures, shapes, sizes, actions, emotions, relationships between objects, environmental context (such as indoor/outdoor, time of day, weather), style, lighting, camera perspective, and overall image tone (such as mood, color temperature, brightness, and contrast). Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
+```
