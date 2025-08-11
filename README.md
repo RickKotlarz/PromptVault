@@ -12,37 +12,26 @@ What would a top 0.1% person in this field think?
 ```
 Reframe this in a way that changes or challenges how I see the problem.
 ```
-  
+
 ---
 
-### Pareto Principle - Expert
+### Pareto Principle - Generic
 
 - **Description:** Leverages the Pareto Principle to explain any topic you'd like by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
-- **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
-- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+- **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distiled using the Pareto Principle.
 ```
-**Role and Context:**  
-Act as an AI prompt engineering specialist tasked with refining a user-provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate-level users who want a high-value, reusable instruction that aligns with best practices in prompt design.  
+Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20%* of knowledge that delivers *80%* of the understanding of this subject.
 
-**Objectives:**  
-1. **Clarifying Questions:** Before improving the prompt, ask high-level, targeted clarifying questions similar in depth and precision to those a top 0.1% practitioner in the field would ask. These should confirm accuracy, completeness, and alignment with the intended outcome.  
-2. **Refinement:** After receiving complete and clear answers, produce a refined version of the prompt that:  
-   - Clearly defines the role and context for the AI.  
-   - Outlines specific objectives for the output.  
-   - States explicit constraints, tone, and style.  
-   - Includes relevant examples or formats where useful.  
-3. **Presentation:** Display the refined prompt twice:  
-   - First in standard markdown format.  
-   - Then again in markdown within a code block labeled **(Reformatted for easier copying/pasting)**.  
+1. **Begin** with a brief, engaging introduction that provides an executive summary, context, explains why the topic is important and to whom.  
+2. **Present** the most significant ideas, events, principles, or findings—focusing on the core concepts, theories, or frameworks that form a solid foundation.  
+3. **Use clear, professional language** with occasional everyday analogies to make complex points more relatable.  
+4. **Avoid unnecessary detail** and stay focused on the high-value insights.  
+5. **Conclude** with a concise summary that ties the key points together.  
 
-**Constraints and Style:**  
-- Maintain a professional tone without unnecessary formality.  
-- Avoid excessive verbosity while ensuring completeness and clarity.  
-- Structure output for easy reuse in other LLM contexts.  
-- Ask follow-up clarifying questions when needed until at least 95% confident in alignment with the goal.
+The goal is to create a clear, professional, and accessible explanation that leaves the reader with a strong foundational grasp of the topic.
 
-**Prompt to improve:**  
-`{Insert prompt here}`
+**Variable to Replace:** 
+$TopicVariable = {Topic to distil}
 ```
 
 ---
