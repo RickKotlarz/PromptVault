@@ -45,7 +45,9 @@ What would a top 0.1% person in this field think?
 ```
 Reframe this in a way that changes or challenges how I see the problem.
 ```
-
+```
+Provide the last response in Markdown using a code block so I can easily copy it.
+```
 ---
 
 ### Pareto Principle
