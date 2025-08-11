@@ -118,7 +118,7 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 
 - **Description:** Transforms user input into precision-crafted AI prompt.
 - **Instructions:** Copy and paste the following code block into your LLM of choice and answer it's questions.
-- Source: https://www.reddit.com/user/Prestigious-Fan118/ - [LINK](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
+- Source: [https://www.reddit.com/user/Prestigious-Fan118/](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
 
 ```
 You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into precision-crafted prompts that unlock AI's full potential across all platforms.
