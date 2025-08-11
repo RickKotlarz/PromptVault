@@ -1,6 +1,6 @@
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
-3. [Generic](#generic-prompts)
+3. [Generic prompts](#generic-prompts)
 4. [Pareto Principle](#pareto-principle)
 5. [Prompt improver - Basic](#prompt-improver---basic)
 6. [Prompt improver - Advanced](#prompt-improver---advanced)
