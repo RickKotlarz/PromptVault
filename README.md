@@ -20,7 +20,7 @@ Reframe this in a way that changes or challenges how I see the problem.
 - **Description:** Leverages the Pareto Principle to explain any topic by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
 - **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distiled using the Pareto Principle.
 ```
-Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20%* of knowledge that delivers *80%* of the understanding of this subject.
+Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20% of knowledge that delivers 80% of the understanding of this subject*.
 
 1. **Begin** with a brief, engaging introduction that provides an executive summary, context, explains why the topic is important and to whom.  
 2. **Present** the most significant ideas, events, principles, or findings—focusing on the core concepts, theories, or frameworks that form a solid foundation.  
