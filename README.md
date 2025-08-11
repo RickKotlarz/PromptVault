@@ -8,7 +8,7 @@
 8. [JSON context profiling](#json-context-profiling)
 
 ## Introduction
-PromptVault is my personal repository for AI knowledge and prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
+PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
 
 ---
 
