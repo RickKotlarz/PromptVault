@@ -17,7 +17,7 @@ Reframe this in a way that changes or challenges how I see the problem.
 
 ### Pareto Principle - Generic
 
-- **Description:** Leverages the Pareto Principle to explain any topic you'd like by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
+- **Description:** Leverages the Pareto Principle to explain any topic by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
 - **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distiled using the Pareto Principle.
 ```
 Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20%* of knowledge that delivers *80%* of the understanding of this subject.
