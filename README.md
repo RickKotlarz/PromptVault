@@ -14,9 +14,9 @@ PromptVault is my personal repository for AI knowledge and prompts that I use to
 
 ## What is Markdown and why you should use it
 
-Large Language Models (LLMs) do not understand context and as humans we're horrible at conveying this. To help the LLM out we can use Markdown to seperate the instruction from the objects being referenced.
+Large Language Models (LLMs) do not understand context and as humans we're horrible at conveying this. To help the LLM out we can use Markdown to separate the instruction from the objects being referenced.
 
-[Markdown](https://commonmark.org/) is a lightweight markup language developed by John Gruber in 2004 that is used to format plain text. It allows you to easily add formatting elements such as headers, lists, links, images, bold or italic text, and more, using simple symbols or characters. Markdown enhances human readability, provides clear structure, and provides delimiters that helps Large Language Models (LLMs) better interpret user intent, instructions, and expected output.
+[Markdown](https://commonmark.org/) is a lightweight markup language developed by John Gruber in 2004 that is used to format plain text. It allows you to easily add formatting elements such as headers, lists, links, images, bold or italic text, and more, using simple symbols or characters. Markdown enhances human readability, provides clear structure, and provides delimiters that help Large Language Models (LLMs) better interpret user intent, instructions, and expected output.
 
 Using Markdown provides:
  - Clear separation of content
@@ -37,7 +37,7 @@ When you're not on a mobile device, you may also want to give [Stackedit, a Mark
 The following are statements that you can easily add to most prompts to quickly gain additional value.
 
 ```
-Ask clarifying questions until you're at least 95% confident that you can complete this task sucessfully.
+Ask clarifying questions until you're at least 95% confident that you can complete this task successfully.
 ```
 ```
 What would a top 0.1% person in this field view and address this?
@@ -52,8 +52,8 @@ Provide the last response in Markdown using a code block so I can easily copy it
 
 ### Pareto Principle
 
-- **Description:** Leverages the Pareto Principle to explain any topic by distiling and focusing on the 20% of key insights that provide 80% of the understanding or results.
-- **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distiled using the Pareto Principle.
+- **Description:** Leverages the Pareto Principle to explain any topic by distilling and focusing on the 20% of key insights that provide 80% of the understanding or results.
+- **Instructions:** Replace {Topic to distil} (at the end) with the subject you want distilled using the Pareto Principle.
 ```
 Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20% of knowledge that delivers 80% of the understanding of this subject*.
 
@@ -76,7 +76,7 @@ $TopicVariable = {Topic to distil}
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
 - Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
 ```
-You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task sucessfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown to first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
+You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task successfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 {Insert prompt here}
