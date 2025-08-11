@@ -40,7 +40,7 @@ The following are statements that you can easily add to most prompts to quickly 
 Ask clarifying questions until you're at least 95% confident that you can complete this task sucessfully.
 ```
 ```
-What would a top 0.1% person in this field think?
+What would a top 0.1% person in this field view and address this?
 ```
 ```
 Reframe this in a way that changes or challenges how I see the problem.
