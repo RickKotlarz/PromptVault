@@ -1,11 +1,12 @@
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
 3. [Generic prompts](#generic-prompts)
-4. [Pareto Principle](#pareto-principle)
-5. [Prompt improver - Basic](#prompt-improver---basic)
-6. [Prompt improver - Advanced](#prompt-improver---advanced)
-7. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
-8. [JSON context profiling](#json-context-profiling)
+4. [OpenAPI Prompt Optimizer](#openAPI-prompt-optimizer)
+5. [Pareto Principle](#pareto-principle)
+6. [Prompt improver - Basic](#prompt-improver---basic)
+7. [Prompt improver - Advanced](#prompt-improver---advanced)
+8. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
+9. [JSON context profiling](#json-context-profiling)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
@@ -48,6 +49,13 @@ Reframe this in a way that changes or challenges how I see the problem.
 ```
 Provide the last response in Markdown using a code block so I can easily copy it.
 ```
+
+---
+
+## OpenAPI Prompt Optimizer
+- **Description:** Prompt Optimizer for OpenAI models - Requires OpenAI platform login
+[https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+
 ---
 
 ### Pareto Principle
