@@ -54,7 +54,7 @@ Provide the last response in Markdown using a code block so I can easily copy it
 
 ## OpenAPI Prompt Optimizer
 - **Description:** Prompt Optimizer for OpenAI models - Requires OpenAI platform login
-[https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+  - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
 
 ---
 
