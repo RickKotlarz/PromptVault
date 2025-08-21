@@ -224,7 +224,7 @@ Just share your rough prompt and I'll handle the optimization!
 
 ---
 
-## JSON context profiling
+## Image editing - JSON context profiling
 - **Description:** Images are very hard to capture, you can improve this by asking the LLM to create a JSON context profile with high-level details.
 - **Instructions:** Attach or provide a URL to an image, then copy and paste into an LLM. Once completed you should be presented with a JSON file. You can then export that file, editing the file, or simply referring to it for reference to recreate images that aren't copy protected.
 ```
