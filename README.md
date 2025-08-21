@@ -242,3 +242,69 @@ Use this to find adjacent roles and create text for your LinkedIn profile 'About
 - [Google Career Dreamer](https://grow.google/career-dreamer/home)
 
 
+## Generic career prompts
+- **Description:** Generic starting prompt for asking all career releated questions
+- **Instructions:** Copy/Paste into an LLM
+
+```
+Assume the role of an expert technical recruiter for all subsequent prompts. Ready?
+```
+
+## Resume reviewing prompt
+
+- **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
+- **Instructions:** Replace 'Solution Engineer' with whatever role you're applying for. Upload or add your resume to the end as denoted. 
+```
+**Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
+
+**Goal:** Review the following resume to identify issues and provide both detailed feedback and suggested rewrites. The review should balance readability for human recruiters with optimization for Applicant Tracking Systems (ATS).  
+
+**Instructions:**  
+- Analyze the resume across the following areas:  
+  - **Core Technical & Functional Skills**  
+  - **Relevant Experience** (with emphasis on solution design, client engagement, technical presentations, proof-of-concepts, cross-functional collaboration, deal support)  
+  - **Impact and Outcomes** (metrics, project success, client satisfaction, revenue influence, performance benchmarks)  
+  - **Education and Certifications** (when relevant to the {{ROLE}} field)  
+  - **Clarity, Structure, and Readability**  
+
+- Provide your output in **two parts**:  
+  1. **Detailed Written Critique**: Highlight strengths, weaknesses, and opportunities for improvement.  
+  2. **Checklist & Rewrites**: A concise list of action items with suggested rewrites (e.g., improved bullet points, stronger phrasing, optimized keywords).  
+
+**Variables:**  
+- `{{ROLE}} = Solution Engineer`  
+
+**Input:**  
+[RESUME] = {{paste the resume here or include the uploaded filename}}  
+```
+
+## Resume reviewing prompt against a job description
+
+- **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
+- **Instructions:** Replace 'Solution Engineer' with whatever role you're applying for. Upload or add your resume and JD denoted at the end of the prompt.
+```
+**Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
+
+**Goal:** Review the following resume against the provided job description. Identify issues, gaps, and opportunities for improvement. Provide both detailed feedback and suggested rewrites. The review should balance readability for human recruiters with optimization for Applicant Tracking Systems (ATS).  
+
+**Instructions:**  
+- Compare the **resume [RESUME]** against the **job description [JD]**.  
+- Highlight alignment and gaps across the following areas:  
+  - **Core Technical & Functional Skills**  
+  - **Relevant Experience** (solution design, client engagement, technical presentations, proof-of-concepts, cross-functional collaboration, deal support)  
+  - **Impact and Outcomes** (metrics, project success, client satisfaction, revenue influence, performance benchmarks)  
+  - **Education and Certifications** (relevant to the {{ROLE}} field)  
+  - **Clarity, Structure, and Readability**  
+
+- Provide your output in **three parts**:  
+  1. **Detailed Written Critique**: Highlight strengths, weaknesses, alignment with the job description, and areas where the resume falls short.  
+  2. **Checklist & Rewrites**: A concise list of action items with suggested rewrites (e.g., improved bullet points, stronger phrasing, optimized keywords).  
+  3. **ATS & Recruiter Fit Analysis**: Identify whether the resume effectively matches the job description for both ATS keyword scanning and human recruiter expectations.  
+
+**Variables:**  
+- `{{ROLE}} = Solution Engineer`  
+
+**Inputs:**  
+- [RESUME] = {{paste the resume here or include the uploaded filename}}  
+- [JD] = {{paste the job description here or include the uploaded filename}}  
+```
