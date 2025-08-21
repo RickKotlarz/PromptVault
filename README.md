@@ -228,5 +228,11 @@ Just share your rough prompt and I'll handle the optimization!
 - **Description:** Images are very hard to capture, you can improve this by asking the LLM to create a JSON context profile with high-level details.
 - **Instructions:** Attach or provide a URL to an image, then copy and paste into an LLM. Once completed you should be presented with a JSON file. You can then export that file, editing the file, or simply referring to it for reference to recreate images that aren't copy protected.
 ```
-Analyze the image and create an exhaustive JSON context profile that captures every possible attribute and detail. The profile should include all detected objects, their precise locations (bounding boxes or coordinates within the image), colors, textures, shapes, sizes, actions, emotions, relationships between objects, environmental context (such as indoor/outdoor, time of day, weather), style, lighting, camera perspective, and overall image tone (such as mood, color temperature, brightness, and contrast). Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
+Analyze the image and create an exhaustive JSON context profile that captures every possible attribute and detail.
+The profile should include all detected objects, their precise locations (bounding boxes or coordinates within the image), colors, textures, shapes, sizes, actions, emotions, relationships between objects, environmental context (such as indoor/outdoor,
+time of day, weather), style, lighting, camera perspective, and overall image tone (such as mood, color temperature, brightness, and contrast).
+Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
 ```
+
+
+
