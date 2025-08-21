@@ -7,6 +7,7 @@
 7. [Prompt improver - Advanced](#prompt-improver---advanced)
 8. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
+10. [Google Career Dreamer](#google-career-dreamer)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
@@ -234,5 +235,10 @@ time of day, weather), style, lighting, camera perspective, and overall image to
 Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
 ```
 
+---
+
+## Google Career Dreamer
+Used to find adjacent roles and LinkedIn 'About' text.
+- [Google Career Dreamer](https://grow.google/career-dreamer/home)
 
 
