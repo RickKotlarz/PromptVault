@@ -253,7 +253,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 ## Resume reviewing prompt
 
 - **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
-- **Instructions:** Replace 'Solution Engineer' with whatever role you're applying for. Upload or add your resume to the end as denoted. 
+- **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
 
@@ -262,7 +262,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 **Instructions:**  
 - Analyze the resume across the following areas:  
   - **Core Technical & Functional Skills**  
-  - **Relevant Experience** (with emphasis on solution design, client engagement, technical presentations, proof-of-concepts, cross-functional collaboration, deal support)  
+  - **Relevant Experience** (especially in {{RelevantExperienceTopics}})
   - **Impact and Outcomes** (metrics, project success, client satisfaction, revenue influence, performance benchmarks)  
   - **Education and Certifications** (when relevant to the {{ROLE}} field)  
   - **Clarity, Structure, and Readability**  
@@ -273,6 +273,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 
 **Variables:**  
 - `{{ROLE}} = Solution Engineer`  
+- `{{RelevantExperienceTopics}} = solution design, client interaction, technical presentations, proof-of-concept work, teamwork, and sales support`
 
 **Input:**  
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
@@ -281,17 +282,18 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 ## Resume reviewing prompt against a job description
 
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
-- **Instructions:** Replace 'Solution Engineer' with whatever role you're applying for. Upload or add your resume and JD denoted at the end of the prompt.
+- **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying. Upload or add your resume and JD denoted at the end of the prompt.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
+**Objective:** Review the provided resume to identify areas for improvement and offer both detailed feedback and suggested rewrites. Your evaluation should address the needs of both human recruiters and Applicant Tracking Systems (ATS).
 
-**Goal:** Review the following resume against the provided job description. Identify issues, gaps, and opportunities for improvement. Provide both detailed feedback and suggested rewrites. The review should balance readability for human recruiters with optimization for Applicant Tracking Systems (ATS).  
-
-**Instructions:**  
+**Instructions:**
+- Begin with a concise checklist (3-7 bullets) of your evaluation approach before reviewing the resume; keep items conceptual, not implementation-level.
 - Compare the **resume [RESUME]** against the **job description [JD]**.  
 - Highlight alignment and gaps across the following areas:  
   - **Core Technical & Functional Skills**  
-  - **Relevant Experience** (solution design, client engagement, technical presentations, proof-of-concepts, cross-functional collaboration, deal support)  
+  - **Relevant Experience** (solution design, client engagement, technical presentations, proof-of-concepts, cross-functional collaboration, deal support)
+  - **Relevant Experience** (especially in {{RelevantExperienceTopics}})
   - **Impact and Outcomes** (metrics, project success, client satisfaction, revenue influence, performance benchmarks)  
   - **Education and Certifications** (relevant to the {{ROLE}} field)  
   - **Clarity, Structure, and Readability**  
@@ -303,6 +305,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 
 **Variables:**  
 - `{{ROLE}} = Solution Engineer`  
+- `{{RelevantExperienceTopics}} = solution design, client interaction, technical presentations, proof-of-concept work, teamwork, and sales support`
 
 **Inputs:**  
 - [RESUME] = {{paste the resume here or include the uploaded filename}}  
