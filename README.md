@@ -6,7 +6,7 @@
 6. [Prompt improver - Basic](#prompt-improver---basic)
 7. [Prompt improver - Advanced](#prompt-improver---advanced)
 8. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
-9. [JSON context profiling](#json-context-profiling)
+9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
