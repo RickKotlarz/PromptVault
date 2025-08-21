@@ -238,7 +238,7 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 ---
 
 ## Google Career Dreamer
-Used to find adjacent roles and LinkedIn 'About' text.
+Use this to find adjacent roles and create text for your LinkedIn profile 'About' section.
 - [Google Career Dreamer](https://grow.google/career-dreamer/home)
 
 
