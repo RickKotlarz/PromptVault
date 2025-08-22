@@ -8,6 +8,7 @@
 8. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
 10. [Google Career Dreamer](#google-career-dreamer)
+11. [Resume Reviewing Prompt](#resume-reviewing-prompt)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
