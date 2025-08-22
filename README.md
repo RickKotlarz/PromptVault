@@ -1,14 +1,15 @@
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
 3. [Generic prompts](#generic-prompts)
-4. [OpenAPI Prompt Optimizer](#openAPI-prompt-optimizer)
+4. [OpenAPI prompt optimizer](#openAPI-prompt-optimizer)
 5. [Pareto Principle](#pareto-principle)
 6. [Prompt improver - Basic](#prompt-improver---basic)
 7. [Prompt improver - Advanced](#prompt-improver---advanced)
-8. [Lyra - Ultimate Prompt Generator](#lyra---ultimate-prompt-generator)
+8. [Lyra - Ultimate prompt generator](#lyra---ultimate-prompt-generator)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
 10. [Google Career Dreamer](#google-career-dreamer)
-11. [Resume Reviewing Prompt](#resume-reviewing-prompt)
+11. [Resume reviewing prompt - Basic](#resume-reviewing-prompt---basic)
+12. [Resume reviewing prompt with job description mapping](#resume-reviewing-prompt-with-job-description-mapping)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
@@ -54,7 +55,7 @@ Provide the last response in Markdown using a code block so I can easily copy it
 
 ---
 
-## OpenAPI Prompt Optimizer
+## OpenAPI prompt optimizer
 - **Description:** Prompt Optimizer for OpenAI's GPT-5 model - Requires (free) OpenAI platform login. While this is designed for API interactions with GPT-5, it works great for non-API interactions as well.
 - - **Instructions:** Log in, copy / paste your prompt and remove JSON output elements as needed
   - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
@@ -125,7 +126,7 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 ```
 
 ---
-## Lyra - Ultimate Prompt Generator
+## Lyra - Ultimate prompt generator
 
 - **Description:** Transforms user input into precision-crafted AI prompt.
 - **Instructions:** Copy and paste the following code block into your LLM of choice and answer it's questions.
@@ -244,7 +245,7 @@ Use this to find adjacent roles and create text for your LinkedIn profile 'About
 - [Google Career Dreamer](https://grow.google/career-dreamer/home)
 
 
-## Generic career prompts
+## Resume reviewing prompt - Basic
 - **Description:** Generic starting prompt for asking all career releated questions
 - **Instructions:** Copy/Paste into an LLM
 
@@ -281,7 +282,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
 ```
 
-## Resume reviewing prompt against a job description
+## Resume reviewing prompt with job description mapping
 
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
 - **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying. Upload or add your resume and JD denoted at the end of the prompt.
