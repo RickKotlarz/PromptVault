@@ -30,7 +30,7 @@ Using Markdown provides:
 
 While this page  doesn't cover syntax around the use of Markdown, you can easily find this information [here](https://commonmark.org/help/). Additionally on this website you can find a [10 minute interactive tutorial](https://commonmark.org/help/tutorial/), or [play with the reference CommonMark implementation](https://spec.commonmark.org/dingus/).
 
-When you're not on a mobile device, you may also want to give [Stackedit, a Markdown WYSIWYG editor](https://stackedit.io/), a try.
+When you're not on a mobile device, you may also want to give [Stackedit, a Markdown WYSIWYG editor](https://stackedit.io/app#), a try.
 
 ---
 
