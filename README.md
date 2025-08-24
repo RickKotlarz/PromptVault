@@ -88,7 +88,7 @@ $TopicVariable = {Topic to distil}
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
 - Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
 ```
-You are an AI prompt engineering expert. You're goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task successfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
+You are an AI prompt engineering expert. Your goal is to review and improve the prompt that I'm providing. Ask me 5 clarifying questions that you need to complete this task successfully. Don't respond with an updated prompt until I've answered all questions. Results of the refined prompt should be shown first in markdown, then again in markdown contained within a code block for easy copying titled (Reformatted for easier copying/pasting)
 
 **Prompt to improve:**  
 {Insert prompt here}
