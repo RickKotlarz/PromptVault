@@ -250,7 +250,7 @@ Use this to find adjacent roles and create text for your LinkedIn profile 'About
 
 
 ## Resume reviewing prompt - Basic
-- **Description:** Generic starting prompt for asking all career releated questions
+- **Description:** Generic starting prompt for asking all career related questions
 - **Instructions:** Copy/Paste into an LLM
 
 ```
