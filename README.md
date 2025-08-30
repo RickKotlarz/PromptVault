@@ -264,23 +264,25 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
 
-**Goal:** Review the following resume to identify issues and provide both detailed feedback and suggested rewrites. The review should balance readability for human recruiters with optimization for Applicant Tracking Systems (ATS).  
+**Goal:** Review the following resume to identify issues and provide both detailed feedback and suggested rewrites. The review should balance readability for human recruiters with optimization for Applicant Tracking Systems (ATS), while ensuring the resume highlights technical ability, measurable impact, and professional maturity.  
 
 **Instructions:**  
 - Analyze the resume across the following areas:  
-  - **Core Technical & Functional Skills**  
-  - **Relevant Experience** (especially in {{RelevantExperienceTopics}})
-  - **Impact and Outcomes** (metrics, project success, client satisfaction, revenue influence, performance benchmarks)  
-  - **Education and Certifications** (when relevant to the {{ROLE}} field)  
-  - **Clarity, Structure, and Readability**  
+  - **Core Technical & Functional Skills**: Assess technical depth, breadth, and alignment with common expectations for the {{ROLE}} field.  
+  - **Relevant Experience**: Evaluate problem-solving, solution design, client interaction, technical presentations, proof-of-concepts, cross-functional collaboration, deal/sales support, and other responsibilities typical for the role.  
+  - **Impact and Outcomes**: Identify whether accomplishments are quantified with metrics, efficiency gains, cost savings, user adoption, or scale.  
+  - **Collaboration and Leadership**: Look for mentoring, influence, teamwork, and evidence of working effectively across groups.  
+  - **Adaptability and Continuous Learning**: Note examples of quickly picking up new skills, transitioning between projects, or thriving in dynamic environments.  
+  - **Customer/User Focus**: Evaluate whether the resume shows attention to solving end-user or client problems.  
+  - **Education and Certifications**: Confirm relevance and strength in supporting the candidate’s qualifications.  
+  - **Clarity, Structure, and Readability**: Assess formatting, precision of language, ease of scanning, and overall recruiter-friendliness.  
 
-- Provide your output in **two parts**:  
-  1. **Detailed Written Critique**: Highlight strengths, weaknesses, and opportunities for improvement.  
-  2. **Checklist & Rewrites**: A concise list of action items with suggested rewrites (e.g., improved bullet points, stronger phrasing, optimized keywords).  
+**Provide your output in two parts:**  
+1. **Detailed Written Critique**: Highlight strengths, weaknesses, and opportunities for improvement across the above categories.  
+2. **Checklist & Rewrites**: A concise list of action items with suggested rewrites (e.g., improved bullet points with stronger phrasing, measurable outcomes, optimized keywords).  
 
 **Variables:**  
 - `{{ROLE}} = Solution Engineer`  
-- `{{RelevantExperienceTopics}} = solution design, client interaction, technical presentations, proof-of-concept work, teamwork, and sales support`
 
 **Input:**  
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
