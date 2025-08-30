@@ -277,9 +277,10 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
   - **Education and Certifications**: Confirm relevance and strength in supporting the candidate’s qualifications.  
   - **Clarity, Structure, and Readability**: Assess formatting, precision of language, ease of scanning, and overall recruiter-friendliness.  
 
-**Provide your output in two parts:**  
-1. **Detailed Written Critique**: Highlight strengths, weaknesses, and opportunities for improvement across the above categories.  
+**Provide your output in three parts:**  
+1. **Detailed Written Critique**: Highlight strengths, weaknesses, alignment with the job description, and areas where the resume falls short across the above categories.  
 2. **Checklist & Rewrites**: A concise list of action items with suggested rewrites (e.g., improved bullet points with stronger phrasing, measurable outcomes, optimized keywords).  
+3. **ATS & Recruiter Fit Analysis**: Determine whether the resume effectively matches the job description for both ATS keyword scanning and human recruiter expectations, noting areas for technical, impact-driven, and professional improvement.  
 
 **Variables:**  
 - `{{ROLE}} = Solution Engineer`  
