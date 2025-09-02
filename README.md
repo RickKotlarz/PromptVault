@@ -260,7 +260,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 ## Resume reviewing prompt
 
 - **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
-- **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying.
+- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with and run.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
 
@@ -293,6 +293,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
 - **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying. Upload or add your resume and JD denoted at the end of the prompt.
+- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.   
 
