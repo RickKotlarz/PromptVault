@@ -292,8 +292,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 ## Resume reviewing prompt with job description mapping
 
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
-- **Instructions:** Update variables {{ROLE}} and {{RelevantExperienceTopics}} with whatever role you're applying. Upload or add your resume and JD denoted at the end of the prompt.
-- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description.
+- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description. If you attach the resume and JD, simply reference the file name in the prompt and make sure that both files are fully uploaded before submitting the prompt.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.   
 
