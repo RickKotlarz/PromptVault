@@ -323,3 +323,67 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 - [RESUME] = {{paste the resume here or include the uploaded filename}}  
 - [JD] = {{paste the job description here or include the uploaded filename}} 
 ```
+
+## Professional LinkedIn profile photo
+- **Description:** Uses an existing photo that you supply, to create a professional LinkedIn profile photo.
+- **Instructions:** Use Google Gemini and attach one or more images.
+
+```
+Create a professional LinkedIn profile photo using one or more uploaded reference images.
+
+Step 1 – IMAGE SELECTION:
+- Review all uploaded photos of the same person.
+- Identify and select the best photo based on these criteria:
+  • Face is clear and in focus.
+  • Lighting is natural and even (no harsh shadows or bright glare).
+  • Expression is natural, confident, and approachable.
+  • Shoulders and posture are balanced, not awkward or slouched.
+  • Image quality is high enough for enhancement.
+- Once selected, use ONLY that image as the base for enhancement.
+
+Step 2 – FACE & IDENTITY:
+- Do not alter or modify the person’s face, features, expression, or identity in any way.
+- Maintain exact facial structure and authentic appearance.
+- Focus adjustments only on composition, background, and lighting.
+
+[STYLE & OBJECTIVES]
+- Purpose: LinkedIn profile photo
+- Look: professional, approachable, confident
+- Type: head-and-shoulders portrait
+- Tone: realistic, clean, and true-to-life
+- Output: high-resolution image suitable for professional use
+
+[FRAMING AND POSE]
+- Slightly angle the shoulders (10–30 degrees from camera) for a natural, confident posture.
+- Keep the face oriented toward the camera with clear eye contact.
+- Encourage a light, genuine smile.
+- Camera level at eye height for a balanced look.
+- Crop from just above the head to mid-chest (face fills about 60% of the frame).
+
+[LIGHTING]
+- Simulate soft, diffused natural light (as if near a window or with softbox lighting).
+- Maintain even brightness across the face with no harsh shadows.
+- Keep skin tones natural and realistic.
+- Avoid direct flash or overexposure.
+
+[BACKGROUND]
+- Replace or enhance background with a clean, simple, non-distracting backdrop.
+- Options: light gray, beige, warm off-white, or softly blurred office/outdoor setting.
+- Use subtle depth of field to separate subject from background.
+- Avoid clutter or high-contrast visuals.
+
+[CLOTHING AND STYLE]
+- Keep the look polished and professional.
+- Acceptable: business casual or business formal.
+- Preferred colors: navy, charcoal, black, white, muted neutrals.
+- Avoid bright colors, loud patterns, or shiny fabrics.
+- You may subtly adjust brightness and sharpness of clothing, but not change the style.
+
+[FINAL TOUCHES]
+- No digital makeup, skin retouching, or stylized filters.
+- Keep the person’s identity completely unchanged.
+- Ensure overall realism and balance in lighting, color, and tone.
+- The final image should convey professionalism, approachability, and confidence.
+
+Final output: one optimized professional LinkedIn profile photo based on the best uploaded image.
+```
