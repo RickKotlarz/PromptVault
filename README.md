@@ -10,6 +10,7 @@
 10. [Google Career Dreamer](#google-career-dreamer)
 11. [Resume reviewing prompt - Basic](#resume-reviewing-prompt---basic)
 12. [Resume reviewing prompt with job description mapping](#resume-reviewing-prompt-with-job-description-mapping)
+13. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
