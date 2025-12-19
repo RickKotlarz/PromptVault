@@ -327,7 +327,7 @@ Assume the role of an expert technical recruiter for all subsequent prompts. Rea
 
 ## Professional LinkedIn profile photo
 - **Description:** Uses an existing photo that you supply, to create a professional LinkedIn profile photo.
-- **Instructions:** Use Google Gemini and attach one or more images.
+- **Instructions:** Use Google Gemini or ChatGPT and attach one or more images.
 
 ```
 Create a professional LinkedIn profile photo using one or more uploaded reference images.
