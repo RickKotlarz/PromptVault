@@ -388,3 +388,11 @@ Step 2 – FACE & IDENTITY:
 
 Final output: one optimized professional LinkedIn profile photo based on the best uploaded image.
 ```
+
+---
+
+## AI Agent skills
+- **Description:** The following links provide a list of AI agent skills that can be used to improve the results of your agents.
+
+  - [https://github.com/GBSOSS/skill-from-masters/](https://github.com/GBSOSS/skill-from-masters/)
+  - [https://skills.sh/](https://skills.sh/)
