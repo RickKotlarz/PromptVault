@@ -1,10 +1,10 @@
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
 3. [Generic prompts](#generic-prompts)
-4. [OpenAPI prompt optimizer](#openAPI-prompt-optimizer) (Requires OpenAI account)
-5. [Pareto Principle](#pareto-principle)
-6. [Prompt improver - Basic](#prompt-improver---basic)
-7. [Prompt improver - Advanced](#prompt-improver---advanced)
+4. [Pareto Principle](#pareto-principle)
+5. [Prompt improver - Basic](#prompt-improver---basic)
+6. [Prompt improver - Advanced](#prompt-improver---advanced)
+7. [OpenAPI JSON prompt optimizer](#openAPI-json-prompt-optimizer) (Requires OpenAI account)
 8. [Lyra - Ultimate prompt generator](#lyra---ultimate-prompt-generator)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
 10. [Google Career Dreamer](#google-career-dreamer)
@@ -66,13 +66,6 @@ Return the previous response as a plaintext Markdown code block.
 
 ---
 
-## OpenAPI prompt optimizer
-- **Description:** Prompt Optimizer for OpenAI's GPT-5 model - Requires (free) OpenAI platform login. While this is designed for API interactions with GPT-5, it works great for non-API interactions as well.
-- - **Instructions:** Log in, copy / paste your prompt and remove JSON output elements as needed
-  - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
-
----
-
 ### Pareto Principle
 
 - **Description:** Leverages the Pareto Principle to explain any topic by distilling and focusing on the 20% of key insights that provide 80% of the understanding or results.
@@ -111,6 +104,14 @@ When you deliver the final refined prompt:
 ```
 
 ---
+
+## OpenAPI JSON prompt optimizer
+- **Description:** Prompt Optimizer for OpenAI's GPT-5 model - Requires (free) OpenAI platform login. While this is designed for API interactions with GPT-5, it works great for non-API interactions as well if you remove the JSON references.
+- - **Instructions:** Log in, copy / paste your prompt and remove JSON output elements as needed
+  - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+
+---
+
 
 ## Prompt improver - Advanced
 - **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
