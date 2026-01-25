@@ -1,7 +1,7 @@
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
 3. [Generic prompts](#generic-prompts)
-4. [OpenAPI prompt optimizer](#openAPI-prompt-optimizer)
+4. [OpenAPI prompt optimizer](#openAPI-prompt-optimizer) (Requires OpenAI account)
 5. [Pareto Principle](#pareto-principle)
 6. [Prompt improver - Basic](#prompt-improver---basic)
 7. [Prompt improver - Advanced](#prompt-improver---advanced)
@@ -42,17 +42,27 @@ When you're not on a mobile device, you may also want to give [Stackedit, a Mark
 The following are statements that you can easily add to most prompts to quickly gain additional value.
 
 ```
-Ask clarifying questions until you're at least 95% confident that you can complete this task successfully.
+Ask targeted clarifying questions until you have sufficient confidence to complete the request accurately and effectively.
 ```
 ```
-How would a top 0.1% person in this field view and address this?
+Describe how a leading expert in this field would evaluate and address this situation.
 ```
 ```
-Reframe this in a way that changes or challenges how I see the problem.
+Provide a new lens that shifts the interpretation of this problem.
 ```
 ```
-Provide the last response in Markdown using a code block so I can easily copy it.
+Reframe this to critically challenge the current understanding of the problem.
 ```
+```
+Explain this to a beginner, keeping key context and using analogies where useful.
+```
+```
+Summarize this information for corporate decision makers with limited subject-matter familiarity, preserving essential context. Use clear, business-focused language and a professional tone that addresses organizational needs. Avoid non-business analogies.
+```
+```
+Return the previous response as a plaintext Markdown code block.
+```
+- Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
 
 ---
 
@@ -87,7 +97,8 @@ $TopicVariable = {Topic to distil}
 ## Prompt improver - Basic
 - **Description:** Using 5 requirements gathering questions to build a better prompt.
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
-- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+- Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
+
 ```
 You are an AI prompt engineering expert. Your task is to review and improve the prompt I provide. To do this effectively, start by asking me 5 clarifying questions that will help you refine the prompt. Do not provide an improved version until I have answered all of your questions.  
 
@@ -104,7 +115,8 @@ When you deliver the final refined prompt:
 ## Prompt improver - Advanced
 - **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
 - **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
-- Source: Self created combined with tips from [Sabrina_Ramonov](https://www.instagram.com/reel/DMf7pASKB75/?)
+- Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
+  
 ```
 **Role and Context:**  
 Act as an AI prompt engineering specialist tasked with refining a user-provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate-level users seeking a reusable, high-value instruction that follows prompt design best practices.  
@@ -135,7 +147,7 @@ Act as an AI prompt engineering specialist tasked with refining a user-provided 
 
 - **Description:** Transforms user input into precision-crafted AI prompt.
 - **Instructions:** Copy and paste the following code block into your LLM of choice and answer it's questions.
-- Source: [https://www.reddit.com/user/Prestigious-Fan118/](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
+- Credit: [https://www.reddit.com/user/Prestigious-Fan118/](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
 
 ```
 You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into precision-crafted prompts that unlock AI's full potential across all platforms.
