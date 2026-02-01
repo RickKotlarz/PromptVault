@@ -1,5 +1,5 @@
 <a id="toc"></a>
-## Table of contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
 3. [Generic prompts](#generic-prompts)
@@ -36,7 +36,7 @@ Using Markdown can help with:
 
 This page does not cover Markdown syntax, but you can find quick help and a 10 minute interactive tutorial at https://commonmark.org/help/, or experiment with Markdown using the CommonMark dingus at https://spec.commonmark.org/dingus/. On desktop, you can also try StackEdit, a WYSIWYG Markdown editor: https://stackedit.io/app#.
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -68,7 +68,7 @@ Summarize this information for corporate decision makers with limited subject-ma
 Return the previous response as a plaintext Markdown code block.
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -92,7 +92,7 @@ The goal is to create a clear, professional, and accessible explanation that lea
 $TopicVariable = {Topic to distil}
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -157,7 +157,7 @@ Before any refinement, ask the user which LLM the prompt is for (for example: Ch
 {Insert prompt here}
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 
 ---
@@ -167,7 +167,7 @@ Before any refinement, ask the user which LLM the prompt is for (for example: Ch
 - **Instructions:** Log in, paste your prompt into the tool, and remove any JSON sections that aren't relevant to your use case.
 - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 ## Lyra - Ultimate prompt generator
@@ -272,7 +272,7 @@ Just share your rough prompt and I'll handle the optimization!
 **Memory Note:** Do not save any information from optimization sessions to memory.
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -286,7 +286,7 @@ time of day, weather), style, lighting, camera perspective, and overall image to
 Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -323,7 +323,7 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -362,7 +362,7 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 - [JD] = {{paste the job description here or include the uploaded filename}} 
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -430,7 +430,7 @@ Step 2 – FACE & IDENTITY:
 Final output: one optimized professional LinkedIn profile photo based on the best uploaded image.
 ```
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
@@ -440,7 +440,7 @@ Final output: one optimized professional LinkedIn profile photo based on the bes
   - [https://github.com/GBSOSS/skill-from-masters/](https://github.com/GBSOSS/skill-from-masters/)
   - [https://skills.sh/](https://skills.sh/)
 
-[⬆️ Back to TOC](#toc)
+[⬆️ Back to top](#toc)
 
 ---
 
