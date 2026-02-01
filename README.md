@@ -7,39 +7,38 @@
 7. [OpenAPI JSON prompt optimizer](#openAPI-json-prompt-optimizer) (Requires OpenAI account)
 8. [Lyra - Ultimate prompt generator](#lyra---ultimate-prompt-generator)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
-10. [Google Career Dreamer](#google-career-dreamer)
-11. [Resume reviewing prompt - Basic](#resume-reviewing-prompt---basic)
-12. [Resume reviewing prompt with job description mapping](#resume-reviewing-prompt-with-job-description-mapping)
-13. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
+10. [Resume reviewing prompt - Basic](#resume-reviewing-prompt---basic)
+11. [Resume reviewing prompt with job description mapping](#resume-reviewing-prompt-with-job-description-mapping)
+12. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
+13. [AI Agent skills library](#ai-agent-skills-library)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
+
+Like any skill, you are not an expert the first few times you try it, and working with AI is no exception. You learn the basics first, then improve through repeated use, feedback, and iteration until you become proficient.
 
 ---
 
 ## What is Markdown and why you should use it
 
-Large Language Models (LLMs) do not understand context and as humans we're horrible at conveying this. To help the LLM out we can use Markdown to separate the instruction from the objects being referenced.
+Large language models do not understand context the way people do. They generate responses by recognizing patterns in text and by using the signals in a prompt. When prompts are vague or incomplete, results are more likely to be off target. Clear goals, constraints, and relevant details usually lead to better outputs. Structured formatting helps by showing how information is organized and what is most important.
 
-[Markdown](https://commonmark.org/) is a lightweight markup language developed by John Gruber in 2004 that is used to format plain text. It allows you to easily add formatting elements such as headers, lists, links, images, bold or italic text, and more, using simple symbols or characters. Markdown enhances human readability, provides clear structure, and provides delimiters that help Large Language Models (LLMs) better interpret user intent, instructions, and expected output.
+[Markdown](https://commonmark.org/) is a lightweight markup language that adds structure with simple symbols while staying easy for people to read. Its formatting cues can also help models interpret instructions and expected outputs.
 
-Using Markdown provides:
- - Clear separation of content
- - Enhancing context recognition
- - Distinguishing between input and output
- - Highlighting intent with emphasis
- - Prompting LLMs with specific formatting
- - Facilitating conditional output
+Using Markdown can help with:
+- Separating instructions from data  
+- Distinguishing inputs from expected outputs  
+- Emphasizing key constraints or priorities  
+- Requesting specific output formats  
+- Setting up rule-based or conditional instructions
 
-While this page  doesn't cover syntax around the use of Markdown, you can easily find this information [here](https://commonmark.org/help/). Additionally on this website you can find a [10 minute interactive tutorial](https://commonmark.org/help/tutorial/), or [play with the reference CommonMark implementation](https://spec.commonmark.org/dingus/).
-
-When you're not on a mobile device, you may also want to give [Stackedit, a Markdown WYSIWYG editor](https://stackedit.io/app#), a try.
+This page does not cover Markdown syntax, but you can find quick help and a 10 minute interactive tutorial at https://commonmark.org/help/, or experiment with Markdown using the CommonMark dingus at https://spec.commonmark.org/dingus/. On desktop, you can also try StackEdit, a WYSIWYG Markdown editor: https://stackedit.io/app#.
 
 ---
 
 ## Generic prompts
 
-The following are statements that you can easily add to most prompts to quickly gain additional value.
+These are general purpose prompt add-ons you can plug into many different requests to get better results fast. They are not task specific, but they often improve clarity, relevance, and usefulness with minimal effort.
 
 ```
 Ask targeted clarifying questions until you have sufficient confidence to complete the request accurately and effectively.
@@ -68,8 +67,9 @@ Return the previous response as a plaintext Markdown code block.
 
 ### Pareto Principle
 
-- **Description:** Leverages the Pareto Principle to explain any topic by distilling and focusing on the 20% of key insights that provide 80% of the understanding or results.
-- **Instructions:** Replace {Topic to distil} (at the end of this prompt) with the subject you want distilled using the Pareto Principle.
+- **Description:** Uses the Pareto Principle to explain a topic by focusing on the small set of ideas that deliver most of the understanding or impact.
+- **Instructions:** Replace {Topic to distill} with the subject you want summarized through a Pareto lens.
+
 ```
 Act as an expert teacher on **$TopicVariable**. Apply the Pareto Principle by sharing the *most essential 20% of knowledge that delivers 80% of the understanding of this subject*.
 
@@ -88,8 +88,8 @@ $TopicVariable = {Topic to distil}
 ---
 
 ## Prompt improver - Basic
-- **Description:** Using 5 requirements gathering questions to build a better prompt.
-- **Instructions:** Replace {Insert prompt here} with your prompt. After running, copy and past
+- **Description:** Applies five requirements gathering questions to refine and strengthen a prompt.
+- **Instructions:** Replace {Insert prompt here} with your draft prompt. After running it, copy and paste the improved version for use.
 - Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
 
 ```
@@ -105,50 +105,62 @@ When you deliver the final refined prompt:
 
 ---
 
-## OpenAPI JSON prompt optimizer
-- **Description:** Prompt Optimizer for OpenAI's GPT-5 model - Requires (free) OpenAI platform login. While this is designed for API interactions with GPT-5, it works great for non-API interactions as well if you remove the JSON references.
-- - **Instructions:** Log in, copy / paste your prompt and remove JSON output elements as needed
-  - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
-
----
-
-
 ## Prompt improver - Advanced
-- **Description:** Uses IA to improve your AI prompts using some advanced requirements gathering questions.
-- **Instructions:** Replace {Insert prompt here} with your prompt. After running, answer questions, then copy and paste into a new LLM chat.
+- **Description:** Uses AI to improve your prompts through structured requirements gathering, including identifying the target LLM and asking 5 to 10 focused clarifying questions to refine the request using model specific best practices.
+- **Instructions:** Replace {Insert prompt here} with your draft prompt. Specify which LLM you are targeting, answer the follow up questions, then copy and paste the refined prompt into a new chat with that LLM.
 - Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
   
 ```
 **Role and Context:**  
-Act as an AI prompt engineering specialist tasked with refining a user-provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate-level users seeking a reusable, high-value instruction that follows prompt design best practices.  
+Act as an AI prompt engineering specialist tasked with refining a user provided prompt so it is clear, concise, and optimized for producing the intended output. The audience for the refined prompt is intermediate level users seeking a reusable, high value instruction that follows prompt design best practices.
+
+**LLM Targeting Requirement:**  
+Before any refinement, ask the user which LLM the prompt is for (for example: ChatGPT, Claude, Gemini, Grok, Sonar, Llama, DeepSeek, non-specific).  
+- If a specific LLM is named, adapt the refined prompt to align with that model’s official or widely accepted best practices, strengths, and limitations.  
+- If "non-specific", "Generic" or unknown, apply cross platform best practices that work well across major LLMs.
 
 **Objectives:**  
-1. **Clarifying Questions:** Before improving the prompt, ask between 5 and 10 targeted clarifying questions designed to ensure accuracy, completeness, and alignment with the intended purpose. These should be thoughtful and high-value, similar to what a top practitioner in the field would ask.  
-2. **Refinement:** After receiving complete answers, produce a refined version of the prompt that:  
-   - Defines the AI’s role and context clearly.  
-   - Specifies objectives for the output.  
+1. **Clarifying Questions:**  
+   - First ask which LLM the prompt is for.  
+   - Then ask 5 to 10 targeted clarifying questions to ensure accuracy, completeness, and alignment with the user’s goal.  
+   - Questions should be high value and similar to what an expert practitioner would ask.
+
+2. **Refinement:**  
+   After receiving complete answers, produce a refined version of the prompt that:  
+   - Clearly defines the AI’s role and context.  
+   - Specifies objectives and desired outcomes.  
    - States explicit constraints, tone, and style.  
-   - Includes relevant examples or formats where they enhance understanding or usability.  
-3. **Presentation:** Show the refined prompt twice:  
-   - First in markdown format.  
-   - Then again in markdown within a code block labeled **(Reformatted for easier copying/pasting)**.  
+   - Uses structure, formatting, or examples where they improve usability.  
+   - Reflects best practices for the selected LLM.
+
+3. **Presentation:**  
+   Show the refined prompt twice:  
+   - First in clean markdown format.  
+   - Then again in markdown inside a code block labeled (Reformatted for easier copying/pasting).
 
 **Constraints and Style:**  
-- Maintain a professional tone without unnecessary formality.  
-- Avoid excessive verbosity while ensuring completeness.  
-- Ask an additional 5 follow-up clarifying questions only if initial answers are unclear or don't alignment with the goal.  
-- Structure output so it can be easily reused in other LLM contexts.
+- Maintain a professional, practical tone.  
+- Be concise but complete.  
+- Ask up to 5 additional follow up questions **only** if needed to remove ambiguity or misalignment.  
+- Structure outputs so they are easy to reuse and adapt.
 
 **Prompt to improve:**  
 {Insert prompt here}
 ```
 
+
+---
+
+## OpenAPI JSON prompt optimizer
+- **Description:** Prompt Optimizer for OpenAI GPT-5 that helps refine and structure prompts. It requires a free OpenAI platform login. Although it is built for API style prompts, you can also use it for regular chat prompts by removing any JSON specific parts.
+- **Instructions:** Log in, paste your prompt into the tool, and remove any JSON sections that aren't relevant to your use case.
+- [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+
 ---
 ## Lyra - Ultimate prompt generator
-
 - **Description:** Transforms user input into precision-crafted AI prompt.
 - **Instructions:** Copy and paste the following code block into your LLM of choice and answer it's questions.
-- Credit: [https://www.reddit.com/user/Prestigious-Fan118/](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
+- Credit: Inspired by [https://www.reddit.com/user/Prestigious-Fan118/](https://www.reddit.com/r/ChatGPT/comments/1lnfcnt/after_147_failed_chatgpt_prompts_i_had_a/)
 
 ```
 You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into precision-crafted prompts that unlock AI's full potential across all platforms.
@@ -185,11 +197,14 @@ You are Lyra, a master-level AI prompt optimization specialist. Your mission: tr
 
 **Advanced:** Chain-of-thought, few-shot learning, multi-perspective analysis, constraint optimization
 
-**Platform Notes:**
-- **ChatGPT/GPT-4:** Structured sections, conversation starters
-- **Claude:** Longer context, reasoning frameworks
-- **Gemini:** Creative tasks, comparative analysis
-- **Others:** Apply universal best practices
+**Platform Notes:**  
+- First identify which LLM the user is targeting.  
+- If the user names a specific LLM, adapt the prompt to align with that model’s official or widely accepted best practices, strengths, and limitations.  
+- If the LLM is unknown or labeled "Generic," apply cross-platform best practices.  
+- **ChatGPT:** Structured sections, clear instructions, iterative refinement  
+- **Claude:** Longer context, reasoning frameworks, natural language guidance  
+- **Gemini:** Creative tasks, comparative analysis, multimodal-friendly structure  
+- **Grok, Sonar, Llama, DeepSeek, Others:** Follow their documented or widely accepted best practices when known, otherwise use universal best practices
 
 ## OPERATING MODES
 
@@ -258,23 +273,11 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 
 ---
 
-## Google Career Dreamer
-Use this to find adjacent roles and create text for your LinkedIn profile 'About' section.
-- [Google Career Dreamer](https://grow.google/career-dreamer/home)
-
-
 ## Resume reviewing prompt - Basic
-- **Description:** Generic starting prompt for asking all career related questions
-- **Instructions:** Copy/Paste into an LLM
-
-```
-Assume the role of an expert technical recruiter for all subsequent prompts. Ready?
-```
-
-## Resume reviewing prompt
-
 - **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
 - **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with and run.
+- Note, that while not specific to AI, you can use [Google Career Dreamer](https://grow.google/career-dreamer/home) to explore adjacent roles and draft content for your LinkedIn "About" section.
+
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.  
 
@@ -404,8 +407,9 @@ Final output: one optimized professional LinkedIn profile photo based on the bes
 
 ---
 
-## AI Agent skills
-- **Description:** The following links provide a list of AI agent skills that can be used to improve the results of your agents.
+## AI Agent skills library
+- **Description:** The following links provide AI agent skills that extend beyond standard LLM prompts. An LLM prompt guides a model’s response in a single interaction. An AI agent uses prompts within a broader system that can plan, take actions, use tools, manage memory, and pursue goals over multiple steps. Agent skills package reusable instructions, workflows, or domain knowledge that support these capabilities, not just prompt phrasing.
 
   - [https://github.com/GBSOSS/skill-from-masters/](https://github.com/GBSOSS/skill-from-masters/)
   - [https://skills.sh/](https://skills.sh/)
+
