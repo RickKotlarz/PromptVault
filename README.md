@@ -35,7 +35,8 @@ Using Markdown can help with:
 - Setting up rule-based or conditional instructions
 
 This page does not cover Markdown syntax, but you can find quick help and a 10 minute interactive tutorial at https://commonmark.org/help/, or experiment with Markdown using the CommonMark dingus at https://spec.commonmark.org/dingus/. On desktop, you can also try StackEdit, a WYSIWYG Markdown editor: https://stackedit.io/app#.
-[⬆️](#toc)
+
+[⬆️ Back to TOC](#toc)
 
 ---
 
