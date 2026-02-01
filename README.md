@@ -42,8 +42,10 @@ This page does not cover Markdown syntax, but you can find quick help and a 10 m
 
 ## Generic prompts
 
-These are general purpose prompt add-ons you can plug into many different requests to get better results fast. They are not task specific, but they often improve clarity, relevance, and usefulness with minimal effort.
-
+- **Description:** A set of general purpose prompt add-ons you can drop into many requests to improve output quality quickly. They are not task specific, but they reliably boost clarity, depth, and usefulness with little extra effort.
+- **Instructions:** Use the copy icon in the top right of each code block to quickly paste a prompt into your preferred LLM and adapt it to your needs.
+- Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
+  
 ```
 Ask targeted clarifying questions until you have sufficient confidence to complete the request accurately and effectively.
 ```
@@ -65,9 +67,9 @@ Summarize this information for corporate decision makers with limited subject-ma
 ```
 Return the previous response as a plaintext Markdown code block.
 ```
-- Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
 
 [⬆️ Back to TOC](#toc)
+
 ---
 
 ## Pareto Principle
