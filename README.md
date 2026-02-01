@@ -67,9 +67,10 @@ Return the previous response as a plaintext Markdown code block.
 ```
 - Credit: Inspired by [Sabrina_Ramonov](https://www.instagram.com/sabrina_ramonov/reels/) // [https://github.com/SabrinaRamonov](https://github.com/SabrinaRamonov)
 
+[⬆️ Back to TOC](#toc)
 ---
 
-### Pareto Principle
+## Pareto Principle
 
 - **Description:** Uses the Pareto Principle to explain a topic by focusing on the small set of ideas that deliver most of the understanding or impact.
 - **Instructions:** Replace {Topic to distill} with the subject you want summarized through a Pareto lens.
@@ -88,6 +89,8 @@ The goal is to create a clear, professional, and accessible explanation that lea
 **Variable to Replace:** 
 $TopicVariable = {Topic to distil}
 ```
+
+[⬆️ Back to TOC](#toc)
 
 ---
 
@@ -152,6 +155,8 @@ Before any refinement, ask the user which LLM the prompt is for (for example: Ch
 {Insert prompt here}
 ```
 
+[⬆️ Back to TOC](#toc)
+
 
 ---
 
@@ -159,6 +164,8 @@ Before any refinement, ask the user which LLM the prompt is for (for example: Ch
 - **Description:** Prompt Optimizer for OpenAI GPT-5 that helps refine and structure prompts. It requires a free OpenAI platform login. Although it is built for API style prompts, you can also use it for regular chat prompts by removing any JSON specific parts.
 - **Instructions:** Log in, paste your prompt into the tool, and remove any JSON sections that aren't relevant to your use case.
 - [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
+
+[⬆️ Back to TOC](#toc)
 
 ---
 ## Lyra - Ultimate prompt generator
@@ -263,6 +270,8 @@ Just share your rough prompt and I'll handle the optimization!
 **Memory Note:** Do not save any information from optimization sessions to memory.
 ```
 
+[⬆️ Back to TOC](#toc)
+
 ---
 
 ## Image editing - JSON context profiling
@@ -274,6 +283,8 @@ The profile should include all detected objects, their precise locations (boundi
 time of day, weather), style, lighting, camera perspective, and overall image tone (such as mood, color temperature, brightness, and contrast).
 Structure the JSON output for maximum clarity and completeness, ensuring it is easily readable and actionable for future AI-driven image recreation and manipulation. Use precise and descriptive labels for every element. Focus on extremely high-level detail; do not omit any aspect, no matter how minor.
 ```
+
+[⬆️ Back to TOC](#toc)
 
 ---
 
@@ -310,6 +321,10 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
 ```
 
+[⬆️ Back to TOC](#toc)
+
+---
+
 ## Resume reviewing prompt with job description mapping
 
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
@@ -344,6 +359,10 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 - [RESUME] = {{paste the resume here or include the uploaded filename}}  
 - [JD] = {{paste the job description here or include the uploaded filename}} 
 ```
+
+[⬆️ Back to TOC](#toc)
+
+---
 
 ## Professional LinkedIn profile photo
 - **Description:** Uses an existing photo that you supply, to create a professional LinkedIn profile photo.
@@ -409,6 +428,8 @@ Step 2 – FACE & IDENTITY:
 Final output: one optimized professional LinkedIn profile photo based on the best uploaded image.
 ```
 
+[⬆️ Back to TOC](#toc)
+
 ---
 
 ## AI Agent skills library
@@ -416,4 +437,9 @@ Final output: one optimized professional LinkedIn profile photo based on the bes
 
   - [https://github.com/GBSOSS/skill-from-masters/](https://github.com/GBSOSS/skill-from-masters/)
   - [https://skills.sh/](https://skills.sh/)
+
+[⬆️ Back to TOC](#toc)
+
+---
+
 
