@@ -161,16 +161,6 @@ Before any refinement, ask the user which LLM the prompt is for (for example: Ch
 
 [⬆️ Back to top](#toc)
 
-
----
-
-## OpenAPI JSON prompt optimizer
-- **Description:** Prompt Optimizer for OpenAI GPT-5 that helps refine and structure prompts. It requires a free OpenAI platform login. Although it is built for API style prompts, you can also use it for regular chat prompts by removing any JSON specific parts.
-- **Instructions:** Log in, paste your prompt into the tool, and remove any JSON sections that aren't relevant to your use case.
-- [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
-
-[⬆️ Back to top](#toc)
-
 ---
 ## Lyra - Ultimate prompt generator
 - **Description:** Transforms user input into precision-crafted AI prompt.
@@ -273,6 +263,15 @@ Just share your rough prompt and I'll handle the optimization!
 
 **Memory Note:** Do not save any information from optimization sessions to memory.
 ```
+
+[⬆️ Back to top](#toc)
+
+---
+
+## OpenAPI JSON prompt optimizer
+- **Description:** Prompt Optimizer for OpenAI GPT-5 that helps refine and structure prompts. It requires a free OpenAI platform login. Although it is built for API style prompts, you can also use it for regular chat prompts by removing any JSON specific parts.
+- **Instructions:** Log in, paste your prompt into the tool, and remove any JSON sections that aren't relevant to your use case.
+- [https://platform.openai.com/chat/edit?models=gpt-5&optimize=true](https://platform.openai.com/chat/edit?models=gpt-5&optimize=true)
 
 [⬆️ Back to top](#toc)
 
