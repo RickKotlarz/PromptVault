@@ -1,3 +1,4 @@
+<a id="toc"></a>
 ## Table of contents
 1. [Introduction](#introduction)
 2. [What is Markdown and why should you use it](#what-is-markdown-and-why-you-should-use-it)
@@ -34,6 +35,7 @@ Using Markdown can help with:
 - Setting up rule-based or conditional instructions
 
 This page does not cover Markdown syntax, but you can find quick help and a 10 minute interactive tutorial at https://commonmark.org/help/, or experiment with Markdown using the CommonMark dingus at https://spec.commonmark.org/dingus/. On desktop, you can also try StackEdit, a WYSIWYG Markdown editor: https://stackedit.io/app#.
+[⬆️](#toc)
 
 ---
 
