@@ -439,6 +439,7 @@ Final output: one optimized professional LinkedIn profile photo based on the bes
 - **Description:** The following links provide AI agent skills that extend beyond standard LLM prompts. An LLM prompt guides a model’s response in a single interaction. An AI agent uses prompts within a broader system that can plan, take actions, use tools, manage memory, and pursue goals over multiple steps. Agent skills package reusable instructions, workflows, or domain knowledge that support these capabilities, not just prompt phrasing.
 
   - [https://github.com/GBSOSS/skill-from-masters/](https://github.com/GBSOSS/skill-from-masters/)
+  - [https://github.com/agentskills](https://github.com/agentskills)
   - [https://skills.sh/](https://skills.sh/)
 
 [⬆️ Back to top](#toc)
