@@ -9,10 +9,11 @@
 7. [Lyra - Ultimate prompt generator](#lyra---ultimate-prompt-generator)
 8. [OpenAPI JSON prompt optimizer](#openAPI-json-prompt-optimizer) (Requires OpenAI account)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
-10. [Resume reviewing prompt - Basic](#resume-reviewing-prompt---basic)
-11. [Resume reviewing prompt with job description mapping](#resume-reviewing-prompt-with-job-description-mapping)
-12. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
-13. [AI Agent skills library](#ai-agent-skills-library)
+10. [Resume reviewer - Basic](#resume-reviewer-prompt---basic)
+11. [Resume reviewer - Job description mapping](#resume-reviewer---job-description-mapping)
+12. [Resume reviewer - Theme based with job description mapping](#resume-reviewer---theme-based-with-job-description-mapping)
+13. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
+14. [AI Agent skills library](#ai-agent-skills-library)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
@@ -291,9 +292,9 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 
 ---
 
-## Resume reviewing prompt - Basic
-- **Description:** Reviews and improves resumes for a specified role (such as Solution Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
-- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with and run.
+## Resume reviewer - Basic
+- **Description:** Reviews and improves resumes for a specified role (such as Solutions Engineer) by providing both detailed feedback and actionable rewrites optimized for recruiters and ATS systems.
+- **Instructions:** Update the variable `{{ROLE}} = Solutions Engineer` with whatever the role you're trying to align with and run.
 - Note, that while not specific to AI, you can use [Google Career Dreamer](https://grow.google/career-dreamer/home) to explore adjacent roles and draft content for your LinkedIn "About" section.
 
 ```
@@ -318,7 +319,7 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 3. **ATS & Recruiter Fit Analysis**: Determine whether the resume effectively matches the job description for both ATS keyword scanning and human recruiter expectations, noting areas for technical, impact-driven, and professional improvement.  
 
 **Variables:**  
-- `{{ROLE}} = Solution Engineer`  
+- `{{ROLE}} = Solutions Engineer`  
 
 **Input:**  
 [RESUME] = {{paste the resume here or include the uploaded filename}}  
@@ -327,11 +328,9 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 [⬆️ Back to top](#toc)
 
 ---
-
-## Resume reviewing prompt with job description mapping
-
+## Resume reviewer - Job description mapping
 - **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
-- **Instructions:** Update the variable `{{ROLE}} = Solution Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description. If you attach the resume and JD, simply reference the file name in the prompt and make sure that both files are fully uploaded before submitting the prompt.
+- **Instructions:** Update the variable `{{ROLE}} = Solutions Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description. If you attach the resume and JD, simply reference the file name in the prompt and make sure that both files are fully uploaded before submitting the prompt.
 ```
 **Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.   
 
@@ -356,11 +355,105 @@ Structure the JSON output for maximum clarity and completeness, ensuring it is e
 3. **ATS & Recruiter Fit Analysis**: Determine whether the resume effectively matches the job description for both ATS keyword scanning and human recruiter expectations, noting areas for technical, impact-driven, and professional improvement.  
 
 **Variables:**  
-- `{{ROLE}} = Solution Engineer`  
+- `{{ROLE}} = Solutions Engineer`  
 
 **Inputs:**  
 - [RESUME] = {{paste the resume here or include the uploaded filename}}  
 - [JD] = {{paste the job description here or include the uploaded filename}} 
+```
+
+[⬆️ Back to top](#toc)
+
+---
+
+## Resume reviewer - Theme based with job description mapping
+- **Description:** A structured prompt that guides an AI recruiter to compare a resume against a job description for a role, providing a detailed critique, suggested rewrites, and an analysis of alignment for both ATS and human recruiters.
+- **Instructions:** Update the variable `{{ROLE}} = Solutions Engineer` with whatever the role you're trying to align with. Then edit the variables in `[RESUME]` and `[JD]` to map to your resume and job description. If you attach the resume and JD, simply reference the file name in the prompt and make sure that both files are fully uploaded before submitting the prompt.
+- 
+```
+**Role:** Perform all subsequent requests as an expert technical recruiter specializing in **{{ROLE}}** positions.
+
+**Objective:** Review the provided resume to identify areas for improvement and offer both detailed feedback and suggested rewrites. Your evaluation should address the needs of both human recruiters and Applicant Tracking Systems (ATS), while ensuring the resume highlights technical ability, measurable impact, and professional maturity.
+
+**Theme Mirroring Requirement (Top 3 JD Themes):**
+- First, analyze **[JD]** and identify the **top 3 key themes** most critical to success in this role.
+- Define each theme in 1 sentence and list:
+  - The strongest supporting keywords/phrases from the JD (5–10 per theme)
+  - The most important evidence signals to look for in a resume (2–4 per theme)
+- Use these themes to structure the entire evaluation and to guide all suggested rewrites. The resume should feel aligned to the role without inventing experience.
+
+**Professional Summary Requirement (Theme-Coverage Rule):**
+- Provide a rewritten **Professional Summary** (2–4 lines) that explicitly supports **at least 1** of the extracted themes and **ideally covers all 3** when truthful and supported by the resume.
+- Immediately after the summary, add a short **Theme Coverage** line:
+  - `Theme Coverage: Theme 1, Theme 2, Theme 3` (include only those clearly reflected)
+- If the resume does not contain evidence for a theme, do NOT force it into the summary. Instead:
+  - Write the summary to cover only supported themes.
+  - Add a one-sentence note: “Missing evidence to credibly include: Theme X”, plus what proof would be needed.
+
+**Resume Formatting Requirement (Match Example Layout):**
+When providing rewritten resume content, output it in a clean “resume ready” format that mirrors this structure:
+- Role header lines (plain text, no tables):
+  - Company, Location, Dates
+  - Title, Team/Product (if applicable), Dates
+  - 1–2 line role summary (optional but recommended)
+- Bullet style:
+  - Use a solid dot bullet "•"
+  - Each bullet must start with a short bold Work Theme Label followed by a colon, then the accomplishment sentence.
+  - Example: `•  **Sales Engineering:** Designed and delivered...`
+  - Keep the label 2–4 words, Title Case, consistent across bullets.
+  - Keep bullets to 1–2 lines when possible. Lead with action, include scope/tools, end with outcome or metric.
+
+**Experience Bullet Requirement (Work Theme Labels + JD Theme Mapping):**
+- Every rewritten experience bullet must include a Work Theme Label that describes the type of work (for example: Sales Engineering, Value Mapping, Technical Discovery, Stakeholder Collaboration, Proof of Concept, Deal Support, Enablement, Automation, Security Architecture, Operational Excellence).
+- Labels must be chosen using this priority:
+  1) Prefer labels that clearly align to one of the Top 3 JD Themes
+  2) Otherwise use a functional label that is still meaningful and consistent
+- Do NOT embed JD theme tags inside the bullet text (to preserve resume formatting).
+- After the rewritten bullets for each role, add a separate “Theme Mapping” block that maps bullet numbers to JD Themes.
+  - Format:
+    - `Theme Mapping:`
+    - `1 -> Theme 1, Theme 3`
+    - `2 -> Theme 2`
+- After each role, also include a “Label Coverage Check”:
+  - Bullets per Work Theme Label (counts)
+  - Bullets per JD Theme (counts)
+  - Note any underrepresented JD theme and suggest which bullets could be reframed (truthfully) to support it.
+
+**Instructions:**
+- Begin with a concise checklist (3–7 bullets) of your evaluation approach before reviewing the resume; keep items conceptual, not implementation-level.
+- Compare the **resume [RESUME]** against the **job description [JD]**.
+- Perform analysis in two layers:
+  1) **Theme-first analysis**: Evaluate how well the resume supports each of the **Top 3 JD Themes** (alignment, proof, gaps).
+  2) **Category analysis**: Highlight alignment and gaps across the areas below, explicitly tying findings back to the themes when relevant:
+     - **Core Technical & Functional Skills**
+     - **Relevant Experience**
+     - **Impact and Outcomes**
+     - **Collaboration and Leadership**
+     - **Adaptability and Continuous Learning**
+     - **Customer/User Focus**
+     - **Education and Certifications**
+     - **Clarity, Structure, and Readability**
+
+**Provide your output in four parts:**
+0. **Top 3 JD Themes (Extracted)**
+1. **Detailed Written Critique**
+2. **Checklist & Rewrites (Resume Ready)**
+   - Rewritten Professional Summary + Theme Coverage line (and missing-evidence note if needed)
+   - Rewritten role blocks with bullets in the required labeled format:
+     `•  **Work Theme Label:** Action + Scope/Tools + Outcome (metric when possible)`
+   - After each role: Theme Mapping + Label Coverage Check
+3. **ATS & Recruiter Fit Analysis**
+   - ATS: keyword coverage and missing terms grouped by theme
+   - Recruiter: quick “hire signal” assessment and seniority/professional maturity
+   - Short gap-closing plan mapped to the themes
+
+**Variables:**
+- `{{ROLE}} = Solutions Engineer`
+
+**Inputs:**
+- [RESUME] = {{paste the resume here or include the uploaded filename}}
+- [JD] = {{paste the job description here or include the uploaded filename}}
+
 ```
 
 [⬆️ Back to top](#toc)
