@@ -9,7 +9,7 @@
 7. [Lyra - Ultimate prompt generator](#lyra---ultimate-prompt-generator)
 8. [OpenAPI JSON prompt optimizer](#openAPI-json-prompt-optimizer) (Requires OpenAI account)
 9. [Image editing - JSON context profiling](#image-editing---json-context-profiling)
-10. [Resume reviewer - Basic](#resume-reviewer-prompt---basic)
+10. [Resume reviewer - Basic](#resume-reviewer---basic)
 11. [Resume reviewer - Job description mapping](#resume-reviewer---job-description-mapping)
 12. [Resume reviewer - Theme based with job description mapping](#resume-reviewer---theme-based-with-job-description-mapping)
 13. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
