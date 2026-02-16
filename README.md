@@ -14,7 +14,7 @@
 12. [Resume reviewer - Theme based with job description mapping](#resume-reviewer---theme-based-with-job-description-mapping)
 13. [Professional LinkedIn profile photo](#professional-linkedin-profile-photo)
 14. [AI Agent skills library](#ai-agent-skills-library)
-15. [YouTube channels worth following](#youtube-channels-worth-following)
+15. [YouTube channels - AI related](#youtube-channels---ai-related)
 
 ## Introduction
 PromptVault is my personal repository for AI knowledge and LLM prompts that I use to help with everyday use within various LLMs. Use the copy icon in the top right of each code block to easily copy, paste, and modify.
@@ -540,8 +540,11 @@ Final output: one optimized professional LinkedIn profile photo based on the bes
 [⬆️ Back to top](#toc)
 
 ---
-## YouTube channels worth following
-  - [Brian Casel](https://www.youtube.com/@briancasel)
-  - [Matthew Berman](https://www.youtube.com/@matthew_berman)
+
+## YouTube channels - AI related
+ - [Brian Casel](https://www.youtube.com/@briancasel)
+ - [Matthew Berman](https://www.youtube.com/@matthew_berman)
+ - [Sabrina Ramonov](https://www.youtube.com/@sabrina_ramonov)
+ - [AI Master](https://www.youtube.com/@iamAImaster)
 
 [⬆️ Back to top](#toc)
